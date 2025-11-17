@@ -1,0 +1,14 @@
+[project]
+name = "kindle-to-pdf"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fpdf2>=2.8.5",
+    "pillow>=12.0.0",
+    "pyautogui>=0.9.54",
+    "tqdm>=4.67.1",
+]
+# tomliはPython 3.11以降では不要（標準ライブラリのtomllibを使用）
+# Python 3.10以下で使用する場合は追加してください
+# "tomli>=2.3.0",

@@ -1,0 +1,23 @@
+[capture]
+# キャプチャ開始前の待機時間（秒）
+wait_time = 5
+# ページをめくった後の待機時間（秒）
+# ページが読み込まれるまで待機します
+page_load_wait = 3.0
+# キャプチャ前の追加待機時間（秒）
+# ページが完全に表示されるまで待機します
+capture_wait = 0.5
+# ページ間のインターバル（秒）（使用されていません、page_load_waitを使用）
+interval = 0.1
+# デフォルトの開始ページ
+default_start_page = 1
+
+# 画像のDPI（解像度）設定
+# Windowsのスクリーンショットは通常96 DPI、Macは72 DPI
+# 画像サイズに合わせてPDFページサイズを計算する際に使用
+image_dpi = 96  # Windowsのデフォルト値
+
+[output]
+# 出力ディレクトリ
+output_dir = "output"
+pdf_parent_dir = "output_pdf"
